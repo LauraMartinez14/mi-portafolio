@@ -8,6 +8,7 @@
     padding: 5px;
     justify-content: center;
     width: 20%;
+    
 }
 
 .inputContainer input {
@@ -28,4 +29,9 @@
 .container-link{
     display: flex;
     justify-content: space-around;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; 
 }
